@@ -1,1 +1,2 @@
 # FightAgainstInsomniaWebSite
+The main aim of the project is to help people fight insomnia. The best way to fight it is with special sounds (sounds of rain, wind, interesting stories and so on). A person visiting the site will have to register and can choose from categories of sounds that suit them. There will be a database to store information about the person who has registered. It will be possible to log in to the site. It is possible to make payment for the paid sounds. Personal account of the person and his favorite sounds.
