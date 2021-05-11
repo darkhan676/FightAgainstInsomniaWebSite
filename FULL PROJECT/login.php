@@ -47,7 +47,7 @@ if (count($_POST) > 0) {
         <div class="header-right">
             <ul>
                 <li><a href="login.php" class="nav-item">Log in</a></li>
-                <li><a href="reg.php" class="nav-item"><span class="reg-span">Register</span></a></li>;
+                <li><a href="reg.php" class="nav-item">Register</a></li>;
             </ul>
         </div>
     </div>
