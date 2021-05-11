@@ -42,7 +42,7 @@
                 session_start();
                 if (!$_SESSION['email']) {
                     echo '<li><a href="login.php" class="nav-item">Log in</a></li>
-                        <li><a href="reg.php" class="nav-item">Register</a></li>';
+                        <li><a href="reg.php" class="nav-item"><span class="reg-span">Register</span></a></li>';
                 } else {
                     echo '<li><a href="#" class="nav-item"> ' . $_SESSION['email'] . ' </a></li>
                     <li><a href="logout.php" class="nav-item">Log Out</a></li>';
