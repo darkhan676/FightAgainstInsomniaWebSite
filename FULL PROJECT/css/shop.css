@@ -52,6 +52,18 @@ ul {
     color: rgb(240, 231, 231);
 }
 
+.reg-span {
+    color: aqua;
+    border-radius: 5px; 
+    padding: 8px;
+    border: 2px solid aqua;
+    transition: .3s ease;
+}
+
+.reg-span:hover {
+    background-color: #243B55;
+}
+
 .footer {
     background-color: black;
     padding-top: 10px;
