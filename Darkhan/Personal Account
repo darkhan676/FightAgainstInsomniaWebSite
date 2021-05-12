@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <title>Personal Account</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="PAcS.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/822363b83c.js" crossorigin="anonymous"></script>
+   </head>	
+   <body>				
+   <center><h2 style="color:white;font-family:'Lora';"	>Personal Account</h2></center>
+				<div id="sleeping">
+				  <div class="sleeping-bubble">
+					<div class="char1">Z</div>
+					<div class="char2">Z</div>
+					<div class="char3">Z</div>
+					<div class="triangle"></div>
+				  </div>
+				</div>
+				<div id="container" style="white-space:nowrap; margin-top:70px;">
+				<div id="image" style="display:inline;">
+				<img src="https://lh3.googleusercontent.com/proxy/-AKAmb94bsjM6EvtaDcitRC5h5pj3GaBz7d4McpUhjKSX31jQCy4A2cZi0WntCCo_L8ozhhrjOLhE2mlsbiddqudrCg61OGIJJEYtPqKyDLIhQnlCuToDC247G52"/>
+				</div>
+			<div id="texts" style="display:inline; white-space:nowrap; color:white;font-family:'Lora';"> 
+				Qwerty James Richards is a 19-year-old P.P.E. student who enjoys vandalising bus stops, meditation and travelling.
+				
+    </div>
+
+</div>
+					<div class="accordion" id="accordionExample"> 
+        <div class="accordion" id="accordionExample1"> 
+            <div class="card"> 
+                <div class="card-header" id="headingThree"> 
+                    <h2 class="mb-0"> 
+                        <button class="btn btn-link collapsed"
+                            type="button" data-toggle="collapse"
+                            data-target="#collapseThree" 
+                            aria-expanded="false" 
+                            aria-controls="collapseThree"> 
+                            Favourite music
+                        </button> 
+                    </h2> 
+                </div> 
+                <div id="collapseThree" class="collapse" 
+                    aria-labelledby="headingThree"
+                    data-parent="#accordionExample1"> 
+					<div class="row">
+                    <div class="card-body"> 
+                        <ol style="float:left">
+							<p>Relax 26</p>
+							<audio controls>
+								<source src="https://7oom.ru/audio/relax/muzyka-dlya-relaksacii-26.mp3">
+							</audio>
+							<p>Relax 27</p>
+							<audio controls>
+								<source src="https://7oom.ru/audio/relax/muzyka-dlya-relaksacii-27.mp3">
+							</audio>
+							<p>Relax 28</p>
+							<audio controls>
+								<source src="https://7oom.ru/audio/relax/muzyka-dlya-relaksacii-28.mp3">
+							</audio>
+							<p>Relax 29</p>
+							<audio controls>
+								<source src="https://7oom.ru/audio/relax/muzyka-dlya-relaksacii-29.mp3">
+							</audio>
+							<p>Relax 30</p>
+							<audio controls>
+								<source src="https://7oom.ru/audio/relax/muzyka-dlya-relaksacii-30.mp3">
+							</audio>
+						</ol>
+						<img src="https://meditationonlongisland.org/wp-content/uploads/2019/02/Water_Drop_1920x1280.png">
+						</div>
+                    </div> 
+                </div> 
+            </div> 
+            <div class="card"> 
+                <div class="card-header" id="headingFour"> 
+                    <h2 class="mb-0"> 
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFour" 
+                            aria-expanded="false" 
+                            aria-controls="collapseFour"> 
+                            Favourite Videos
+                        </button> 
+                    </h2> 
+                </div> 
+                <div id="collapseFour" class="collapse" 
+                    aria-labelledby="headingFour" 
+                    data-parent="#accordionExample1">
+						<div class="row">					
+                    <div class="card-body"> 
+                         <p class="thumb">
+							<iframe width="28%" height="250" style="margin-left:70px;" src="https://www.youtube.com/embed/CxwJrzEdw1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="28%" height="250" style="margin-left:40px;" src="https://www.youtube.com/embed/Mc7XKiNrHQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="28%" height="250" style="margin-left:40px;" src="https://www.youtube.com/embed/AZals4U6Z_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</p>
+                    </div> 
+                </div>
+				</div>
+            </div> 
+			 <div class="card"> 
+                <div class="card-header" id="headingFive"> 
+                    <h2 class="mb-0"> 
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFive" 
+                            aria-expanded="false" 
+                            aria-controls="collapseFive"> 
+                            Link to the Personal Statistics
+                        </button> 
+                    </h2> 
+                </div> 
+                <div id="collapseFive" class="collapse" 
+                    aria-labelledby="headingFive" 
+                    data-parent="#accordionExample1">
+						<div class="row">					
+                    <div class="card-body"> 
+                         <h4><a href="Statistics.html">Personal Statistics</a></h4>
+                    </div> 
+                </div>
+				</div>
+            </div>
+        </div> 
+    </div> 
+				
+					
+					
+					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	  
+   </body>
+   
+</html>
