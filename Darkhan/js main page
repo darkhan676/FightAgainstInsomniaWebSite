@@ -12,5 +12,5 @@ setTimeout(() => {
 	notif.open()
 	setTimeout(() => {
 		 notif.close()
-	}, 15000);
+	}, 1500000);
 }, 5000);
